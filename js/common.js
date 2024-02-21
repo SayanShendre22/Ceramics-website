@@ -8,8 +8,12 @@ function scrollFunction() {
     
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById('OnTopBtn').style.display = "block";
+    document.getElementById('navBar').style.padding="0rem 2rem";
+    
   } else {
     document.getElementById('OnTopBtn').style.display = "none";
+    document.getElementById('navBar').style.padding="1rem 2rem";
+    document.getElementById('navBar').style.transition="transition: padding 1s";
   }
 }
 
