@@ -80,7 +80,7 @@
       font-size: 18px;
       border: none;
       outline: none;
-      background-color: red;
+      background-color: #FCBA04;
       color: white;
       cursor: pointer;
       padding: 15px;
@@ -90,6 +90,50 @@
     #OnTopBtn:hover {
       background-color: #555;
     }
+
+    .lowerText{
+      padding-left: 9rem; padding-right: 9rem; 
+    }
+
+    .fifthPart{
+      padding: 2rem 4rem;
+    }
+
+    .fifthBtn{
+      margin: 2rem;
+    }
+
+    .fifthPartContainer{
+      padding: 5rem;
+    }
+
+    .fifthPartSide{
+      padding-left: 4rem;
+    }
+
+
+    @media (max-width: 991px) {
+      .lowerText{
+        padding: 0px;
+      }
+
+      .fifthPart{
+        padding: 0px;
+      }
+
+      .fifthBtn{
+        margin: 2px;
+      }
+      .fifthPartContainer{
+        padding: 5px;
+      }
+      .fifthPartSide{
+        padding-left: 10px;
+      }
+
+    }
+
+
   </style>
 
 
@@ -127,19 +171,22 @@
             </div>
           </li>
           <li class="nav-item m-2 ">
-            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link" href="about.html">Company Profile</a>
           </li>
           <li class="nav-item m-2 ">
             <a class="nav-link" href="contact.html">Contact Us</a>
           </li>
           <li class="nav-item m-2 ">
-            <a class="nav-link " href="contact.html">Call us: +91 xxxxxxxxx</a>
+            <a class="nav-link " href="tel:7004298453">Call us: +91 7004298453</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <button class="btn my-2 my-sm-0" type="submit"
-            style="background-color: #14342b; border-radius: 25px; color: white;  font-weight: bold;">Download
-            Brochure</button>
+          <div class="btn my-2 my-sm-0" 
+            style="background-color: #14342b; border-radius: 25px; color: white;  font-weight: bold;">
+            
+          <a  href="./catloge.pdf" download="catloge.pdf" style="color: white;" > Download Brochure</a>
+
+        </div>
         </form>
       </div>
     </nav>
@@ -166,10 +213,12 @@
 
           <div class="carousel-caption d-none d-md-block" style="background-color: #eceff1d5; ">
             <h3 style="color: black;">Welcome to Gajanand Ceramics</h3>
-            <h1 style="color: #E2541E;">First slide label</h1>
-            <p style="color: black;"> Some representative placeholder content for the first slide.Some representative
-              placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
-            <a style="background-color: #E2541E;  color: #ffff; padding:  12px 30px; margin: 10px;"> Know More </a>
+            <h1 style="color: #E2541E;">Your Reliable Partner in Ceramics</h1>
+            <p style="color: black;"> Gajanand Ceramics has been in this line of activity since 1992. With over a decade
+              of experience, we are today the leaders in our field and one of the largest manufacturer and supplier in
+              India of Refractory based Tundish Board, Expendable thermocouple tips and Samplers </p>
+            <a href="about.html" style="background-color: #E2541E;  color: #ffff; padding:  12px 30px; margin: 10px;">
+              Know More </a>
           </div>
 
         </div>
@@ -179,10 +228,15 @@
 
           <div class="carousel-caption d-none d-md-block" style="background-color: #eceff1d5; ">
             <!-- <h3  style="color: black;" >Welcome to Gajanand Ceramics</h3> -->
-            <h1 style="color: #E2541E;">Second slide label</h1>
-            <p style="color: black;"> Some representative placeholder content for the first slide.Some representative
-              placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
-            <a style="background-color: #E2541E;  color: #ffff; padding:  12px 30px; margin: 10px;"> Contact us</a>
+            <h1 style="color: #E2541E;">Crafting Quality, Shaping Dreams.</h1>
+            <p style="color: black;"> All the team members are dedicated for their responsibilities have complete
+              technical knowhow. They are well versed with contemporary manufacturing techniques enabling them to
+              design and develop quality and allied products. Our manufactured products are widely used by most steel
+              plants in India and overseas.
+
+            </p>
+            <a href="contact.html" style="background-color: #E2541E;  color: #ffff; padding:  12px 30px; margin: 10px;">
+              Contact us</a>
           </div>
 
         </div>
@@ -192,10 +246,13 @@
 
           <div class="carousel-caption d-none d-md-block" style="background-color: #eceff1d5; ">
             <h3 style="color: black;">Know about Gajanand Ceramics</h3>
-            <h1 style="color: #E2541E;">Third slide label</h1>
-            <p style="color: black;"> Some representative placeholder content for the first slide.Some representative
-              placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
-            <a style="background-color: #E2541E;  color: #ffff; padding:  12px 30px; margin: 10px;"> Know More </a>
+            <h1 style="color: #E2541E;">Experience the Excellence of Gajanand Ceramics</h1>
+            <p style="color: black;"> We are one of the few manufacturer's worldwide to have in-house facilities for
+              manufacture of components and paper tubes, both spiral and parallel, enabling us to meet our customers
+              stringent quality requirements and time bound deliveries- an international quality product at Indian
+              prices </p>
+            <a href="about.html" style="background-color: #E2541E;  color: #ffff; padding:  12px 30px; margin: 10px;">
+              Know More </a>
           </div>
 
         </div>
@@ -212,55 +269,49 @@
 
 
     <!-- lower text  -->
-    <div class="text-center" style="padding-left: 9rem; padding-right: 9rem; ">
+    <div class="text-center lowerText " >
 
       <h1 style="color: #14342b;">GAJANAND CERAMICS
         An ISO 9001 : 2015 Certified</h1>
       <br>
       <p>
-        Welcome to Gajanand Ceramics, where we’ve spent the last 15 years perfecting the art of manufacturing to deliver
-        unparalleled quality and innovation. Our journey has been one of continuous growth, learning, and evolution, and
-        today, we proudly stand as a leader in crafting top-notch paper tubes, tundish boards, ramming mass, and
-        temperature tips.</p>
+        Gajanand Ceramics has been in this line of activity since 1992. With over a decade of
+        experience, we are today the leaders in our field and one of the largest manufacturer and
+        supplier in India of Refractory based Tundish Board, Expendable thermocouple tips and
+        Samplers.
+      </p>
       <br>
       <p>
-
-        Paper Tubes: Our paper tubes are more than cylindrical containers; they’re a result of precision engineering and
-        craftsmanship. Whether it’s for packaging, storage, or any other application, our paper tubes are designed to
-        meet the highest standards, ensuring durability, strength, and eco-friendliness.
+        All the team members are dedicated for their responsibilities have complete technical knowhow. They are well
+        versed with contemporary manufacturing techniques enabling them to
+        design and develop quality and allied products. Our manufactured products are widely used by
+        most steel plants in India and overseas.
       </p>
       <br>
       <p>
 
-        Tundis Boards: Discover excellence in insulation with our tundis boards. These carefully engineered boards are
-        built to provide exceptional thermal and sound insulation. Whether you’re working on construction projects or
-        industrial applications, our tundis boards deliver performance that’s as reliable as it is innovative.
+        We are one of the few manufacturer's worldwide to have in-house facilities for manufacture of
+        components and paper tubes, both spiral and parallel, enabling us to meet our customers
+        stringent quality requirements and time bound deliveries- an international quality product at
+        Indian prices.
+
       </p>
       <br>
       <p>
 
-        Ramming Mass: In the world of metallurgy, our ramming mass is your trusted companion. Specially formulated to
-        withstand high temperatures and harsh conditions, our ramming mass ensures optimal furnace lining, contributing
-        to efficient metal production and casting processes.
-      </p>
-      <br>
-      <p>
+        We are backed by robust infrastructure that enables us to retain our market goodwill. Our
+        infrastructural setup is segregated into manufacturing, quality check, and delivery. All the
+        units are installed with state-of-the-art machines and equipment that make them smooth in
+        functioning. They have high production capacity that make them capable to accomplish any
+        volume of products within the shortest period of time.
 
-        Temperature Tips: Precision and accuracy are paramount when it comes to temperature measurement. Our temperature
-        tips combine cutting-edge technology with years of expertise to provide you with accurate readings even in
-        challenging environments. Rely on our temperature tips for consistent and reliable results.
-      </p>
-      <br>
-      <p>
-
-        Since its establishment in 2009, our company has seen great success due to its consistent determination to
-        achieve high standards Products in quality, customer service, and manufacturing of quality products, primarily
-        aimed at providing quality products, and hence our motto.
       </p>
       <br>
 
 
-      <a style="background-color: #E2541E; color: white; border-radius: 20px; cursor: pointer; padding: 1rem; "> KNOW
+
+      <a href="about.html"
+        style="background-color: #E2541E; color: white; border-radius: 20px; cursor: pointer; padding: 1rem; "> KNOW
         MORE </a>
 
     </div>
@@ -286,20 +337,25 @@
         <hr>
 
         <h4>
-          <p class="text-left">Left aligned text on all viewport sizes.</p>
-          <p class="text-center">Center aligned text on all viewport sizes.</p>
-          <p class="text-right">Right aligned text on all viewport sizes.</p>
+          <p>
 
-          <p class="text-sm-left">Left aligned text on viewports sized SM (small) or wider.</p>
-          <p class="text-md-left">Left aligned text on viewports sized MD (medium) or wider.</p>
-          <p class="text-lg-left">Left aligned text on viewports sized LG (large) or wider.</p>
-          <p class="text-xl-left">Left aligned text on viewports sized XL (extra-large) or wider.</p>
+
+
+            Gajanand Ceramics offers a diverse range of high-quality ceramic products, including tiles, sanitary ware,
+            and decorative items. Our products combine sleek design with durability, suitable for both residential and
+            commercial spaces. With customizable options available, we cater to unique preferences, ensuring every space
+            reflects individual style and functionality.
+
+          </p>
+
         </h4>
 
       </div>
-      <div class="col-sm text-center" style="padding-top: 30%;">
-        <h1 style="color: #E2541E; padding: 2rem; ">Hi my name is chotu<br>Meet my friend motuu</h1>
-        <a style="background-color: #E2541E; color: white; border-radius: 20px; cursor: pointer; padding: 1rem; "> KNOW
+      <div class="col-sm text-center" style="padding-top: 6%;">
+        <h1 style="color: #FCBA04; padding: 2rem;">Know more about<br>GAJANAND CERAMICS Products<br> <span
+            style="color: #dddddd;">Building Green, Living Clean</span> </h1>
+        <a href="about.html"
+          style="background-color: #E2541E; color: white; border-radius: 20px; cursor: pointer; padding: 1rem; "> KNOW
           MORE </a>
       </div>
 
@@ -325,43 +381,47 @@
 
       <h5>Our Contribution</h5>
       <h1 style="color: rgb(0, 89, 255);">Industries we Serve!</h1>
-      <p style="padding: 2rem;">At Siyaji Industries, our expertise extends across a wide spectrum of industries, where
-        we deliver tailor-made solutions that embody our commitment to excellence. With an unwavering focus on quality
-        and innovation, we’ve established our presence in numerous sectors, bringing our top-notch products to
-        industries that drive our global economy.
+      <p style="padding: 2rem;">
+        Gajanand Ceramics serves a variety of industries, including:
       </p>
 
       <div class="row">
 
         <div class="col" style="margin: 2rem;">
           <div class="card" style="width: 18rem;">
-            <img style="border-radius: 50px; padding: 2rem; " src="./img/bgProject.jpg" class="card-img-top" alt="...">
+            <img style="border-radius: 50px; padding: 2rem; " src="./img/Construction.jpg" class="card-img-top"
+              alt="...">
             <div class="card-body text-center">
-              <h5 style="color: rgb(0, 162, 255);" class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+              <h5 style="color: rgb(0, 162, 255);" class="card-title">Construction</h5>
+              <p class="card-text">
+                Our ceramic tiles and sanitary ware are essential components in residential, commercial, and industrial
+                construction projects.
+              </p>
             </div>
           </div>
         </div>
 
         <div class="col" style="margin: 2rem;">
           <div class="card" style="width: 18rem;">
-            <img style="border-radius: 50px; padding: 2rem; " src="./img/bgProject.jpg" class="card-img-top" alt="...">
+            <img style="border-radius: 50px; padding: 2rem; " src="./img/Retail.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
-              <h5 style="color: blue;" class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+              <h5 style="color: rgb(0, 162, 255);;" class="card-title"> Retail</h5>
+              <p class="card-text">Home improvement stores, tile showrooms, and specialty retailers stock our products
+                to meet the needs of DIY enthusiasts and professional contractors.</p>
             </div>
           </div>
         </div>
 
         <div class="col" style="margin: 2rem;">
           <div class="card" style="width: 18rem;">
-            <img style="border-radius: 50px; padding: 2rem; " src="./img/bgProject.jpg" class="card-img-top" alt="...">
+            <img style="border-radius: 50px; padding: 2rem; " src="./img/Architecture.jpg" class="card-img-top"
+              alt="...">
             <div class="card-body text-center">
-              <h5 style="color: blue;" class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+              <h5 style="color: rgb(0, 162, 255);" class="card-title">Architecture</h5>
+              <p class="card-text">
+                Architects specify our ceramic tiles and sanitary ware for their projects, appreciating the quality,
+                durability, and design options available.
+              </p>
             </div>
           </div>
         </div>
@@ -373,33 +433,42 @@
 
         <div class="col" style="margin: 2rem;">
           <div class="card" style="width: 18rem;">
-            <img style="border-radius: 50px; padding: 2rem; " src="./img/bgProject.jpg" class="card-img-top" alt="...">
+            <img style="border-radius: 50px; padding: 2rem; " src="./img/goverment and public sector.jpg"
+              class="card-img-top" alt="...">
             <div class="card-body text-center">
-              <h5 style="color: blue;" class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+              <h5 style="color: rgb(0, 162, 255);" class="card-title">Government and Public Sector</h5>
+              <p class="card-text">
+                Government buildings, public facilities, and infrastructure projects incorporate our ceramic products
+                for their reliability and longevity.
+              </p>
             </div>
           </div>
         </div>
 
         <div class="col" style="margin: 2rem;">
           <div class="card" style="width: 18rem;">
-            <img style="border-radius: 50px; padding: 2rem; " src="./img/bgProject.jpg" class="card-img-top" alt="...">
+            <img style="border-radius: 50px; padding: 2rem; " src="./img/Hospitality.jpg" class="card-img-top"
+              alt="...">
             <div class="card-body text-center">
-              <h5 style="color: blue;" class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+              <h5 style="color: rgb(0, 162, 255);" class="card-title">Hospitality</h5>
+              <p class="card-text">Hotels, resorts, restaurants, and other hospitality businesses trust our ceramic
+                products to enhance the aesthetic appeal and functionality of their </p>
+
             </div>
           </div>
         </div>
 
         <div class="col" style="margin: 2rem;">
           <div class="card" style="width: 18rem;">
-            <img style="border-radius: 50px; padding: 2rem; " src="./img/bgProject.jpg" class="card-img-top" alt="...">
+            <img style="border-radius: 50px; padding: 2rem; " src="./img/Landscaping.jpg" class="card-img-top"
+              alt="...">
             <div class="card-body text-center">
-              <h5 style="color: blue;" class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+              <h5 style="color: rgb(0, 162, 255);" class="card-title">Landscaping and Outdoor</h5>
+              <p class="card-text">
+
+                Landscape designers and architects integrate our ceramic tiles for outdoor applications such as pool
+                surrounds, patios, and walkways.
+              </p>
             </div>
           </div>
         </div>
@@ -423,28 +492,97 @@
 
   <!-- fourth path  -->
 
+  <style>
+    .wtcu span {
+      color: #dddddd;
+    }
+  </style>
+
 
   <div class="container" style="color: white; padding: 2rem ; ">
     <div class="row">
-      <div class="col-sm">
+      <div class="col-sm wtcu ">
         <h1>WHY TO CHOOSE US</h1>
         <hr>
 
-        <h4>
-          <p class="text-left">Left aligned text on all viewport sizes.</p>
-          <p class="text-center">Center aligned text on all viewport sizes.</p>
-          <p class="text-right">Right aligned text on all viewport sizes.</p>
+        <span style="font-size: x-large;">
+          <b>
+            Quality Assurance:
+          </b>
+        </span>
+        <span>We offer top-notch ceramic products built to last.</span>
 
-          <p class="text-sm-left">Left aligned text on viewports sized SM (small) or wider.</p>
-          <p class="text-md-left">Left aligned text on viewports sized MD (medium) or wider.</p>
-          <p class="text-lg-left">Left aligned text on viewports sized LG (large) or wider.</p>
-          <p class="text-xl-left">Left aligned text on viewports sized XL (extra-large) or wider.</p>
-        </h4>
+
+        <span style="font-size: x-large;">
+          <b>
+
+            Diverse Selection:
+          </b>
+        </span>
+        <span>Find all your ceramic needs under one roof.</span>
+
+        <br>
+
+        <span style="font-size: x-large;">
+          <b>
+
+            Trendsetting Designs:
+          </b>
+
+        </span>
+        <span>Stay ahead with our innovative designs.</span>
+
+        <br>
+        <span style="font-size: x-large;">
+          <b>
+
+            Competitive Pricing:
+          </b>
+
+        </span>
+        <span>Enjoy affordability without compromising quality.</span>
+        <br>
+
+        <span style="font-size: x-large;">
+          <b>
+
+            Customer Care:
+          </b>
+
+        </span>
+        <span>We prioritize eco-friendly practices.</span>
+        <br>
+
+        <span style="font-size: x-large;">
+          <b>
+            Sustainability Focus:
+
+          </b>
+
+        </span>
+        <span>We offer top-notch ceramic products built to last.</span>
+        <br>
+
+        <span style="font-size: x-large;">
+          <b>
+            Proven Excellence:
+
+          </b>
+
+        </span>
+        <span>Our track record speaks for itself.</span>
+        <br>
+
+
+
+
 
       </div>
-      <div class="col-sm text-center" style="padding-top: 30%;">
-        <h1 style="color: #E2541E; padding: 2rem; ">Hi my name is chotu<br>Meet my friend motuu</h1>
-        <a style="background-color: #E2541E; color: white; border-radius: 20px; cursor: pointer; padding: 1rem; "> KNOW
+      <div class="col-sm text-center" style="padding-top: 6%;">
+        <h1 style="color: #FCBA04; padding: 2rem; ">Read more about<br>GAJANAND CERAMICS<br> <span
+            style="color: #dddddd;"> Your Reliable Partner in Ceramics </span> </h1>
+        <a href="about.html"
+          style="background-color: #E2541E; color: white; border-radius: 20px; cursor: pointer; padding: 1rem; "> KNOW
           MORE </a>
       </div>
 
@@ -459,14 +597,14 @@
     <img src="./img/pexels-kateryna-babaieva-2760241.jpg"
       style="opacity: 20%; width: 100vw; height: 95vh; position: absolute; ">
 
-    <div class="container" style="padding: 5rem;">
+    <div class="container fifthPartContainer" >
 
       <div class="row   ">
         <div class="col-sm-4  text-center">
 
           <img src="./img/pexels-fauxels-3184423.jpg" style="height: 30vh;">
           <br>
-          <p style="padding: 2rem 4rem; ">
+          <p class="fifthPart"  >
             We are always ready to come and visit your industry/site, Gajanand Ceramics Industries has developed a great
             mastery of the technical aspects of materials and machines. We are always interested in quality deliverables
             resulting in maximum customer satisfaction. Thus, we are always looking for ways to innovate and work with
@@ -475,7 +613,7 @@
 
         </div>
 
-        <div class="col-sm-6 " style="padding-left: 4rem;">
+        <div class="col-sm-6 fifthPartSide" >
 
           <div class="row">
 
@@ -552,7 +690,7 @@
 
 
 
-          <div class="text-center" style="margin: 2rem;">
+          <div class="text-center fifthBtn" >
             <a style="background-color: #E2541E; color: white; border-radius: 20px; cursor: pointer; padding: 1rem; ">
               KNOW MORE </a>
           </div>
@@ -642,24 +780,21 @@
 
           <!-- Right -->
           <div>
-            <a href="" class="text-white me-4">
+            <!-- <a href="" class="text-white me-4">
               <i class="fab fa-facebook-f"></i>
             </a>
             <a href="" class="text-white me-4">
               <i class="fab fa-twitter"></i>
-            </a>
+            </a> -->
             <a href="" class="text-white me-4">
               <i class="fab fa-google"></i>
             </a>
-            <a href="" class="text-white me-4">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="" class="text-white me-4">
+            <!-- <a href="" class="text-white me-4">
               <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="" class="text-white me-4">
+            </a> -->
+            <!-- <a href="" clastext-white me-4">
               <i class="fab fa-github"></i>
-            </a>
+            </a>s=" -->
           </div>
           <!-- Right -->
         </section>
@@ -692,17 +827,15 @@
                 <hr class="mb-4 mt-0 d-inline-block mx-auto"
                   style="width: 60px; background-color: #7c4dff; height: 2px" />
                 <p>
-                  <a href="#!" class="text-dark">MDBootstrap</a>
+                  <a href="REFRACTORY.html" class="text-dark">REFRACTORY BASED PRODUCTS</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-dark">MDWordPress</a>
+                  <a href="INDUSTRIAL.html" class="text-dark">INDUSTRIAL THERMO DEVICES</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-dark">BrandFlow</a>
+                  <a href="OurProducts.html" class="text-dark">All Products</a>
                 </p>
-                <p>
-                  <a href="#!" class="text-dark">Bootstrap Angular</a>
-                </p>
+
               </div>
               <!-- Grid column -->
 
@@ -713,17 +846,15 @@
                 <hr class="mb-4 mt-0 d-inline-block mx-auto"
                   style="width: 60px; background-color: #7c4dff; height: 2px" />
                 <p>
-                  <a href="#!" class="text-dark">Your Account</a>
+                  <a href="contact.html" class="text-dark">Contact us</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-dark">Become an Affiliate</a>
+                  <a href="about.html" class="text-dark">About us</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-dark">Shipping Rates</a>
+                  <a href="index.html" class="text-dark">Home</a>
                 </p>
-                <p>
-                  <a href="#!" class="text-dark">Help</a>
-                </p>
+
               </div>
               <!-- Grid column -->
 
@@ -733,10 +864,10 @@
                 <h6 class="text-uppercase fw-bold">Contact</h6>
                 <hr class="mb-4 mt-0 d-inline-block mx-auto"
                   style="width: 60px; background-color: #7c4dff; height: 2px" />
-                <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                <p><i class="fas fa-home mr-3"></i>3 No Charai, Chirkunda, Dhanbad, Jharkhand, 828202</p>
+                <p><i class="fas fa-envelope mr-3"></i> ceramicsgajanand@yahoo.com</p>
+                <p><i class="fas fa-phone mr-3"></i> +91 7004298453</p>
+                <p><i class="fas fa-print mr-3"></i> +91 9386556322</p>
               </div>
               <!-- Grid column -->
             </div>
@@ -747,8 +878,8 @@
 
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-          © 2020 Copyright:
-          <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          © 2024 Copyright:
+          <a class="text-dark" href="">ceramicsgajanand@yahoo.com</a>
         </div>
         <!-- Copyright -->
       </footer>
